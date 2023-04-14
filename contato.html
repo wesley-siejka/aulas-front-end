@@ -1,0 +1,64 @@
+<DOCTYPE html>
+    <html>
+    
+        <head>
+            <meta charset="UTF-8">
+            <title>Contato - Barbearia Wesley</title>
+    
+            <link rel="stylesheet" href="reset.css">
+            <link rel="stylesheet" href="style.css">
+        </head>
+    
+        <body>
+            <header>
+                <div class="caixa">
+                    <h1><img src="logo.png"></h1>
+                    
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="produtos.html">Produtos</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>    
+            </header>
+
+            <main>
+                <form>
+                    <label for="nomes">Nome e obrenome</label>
+                    <input type="text" id="nomes">
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email">
+
+                    <label for="telefone">Telefone</label>
+                    <input type="text" id="telefone">
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea cols="30" rows="10" id="mensagem"></textarea>
+
+                    <div>
+                        <p>Como prefere nosso contato?</p>
+                        <label for="radio-email">Email</label>
+                        <input type="radio" name="contato" value="email" id="radio-email">
+
+                        <label for="radio-telefone">Telefone</label>
+                        <input type="radio" name="contato" value="telefone" id="radio-telefone">
+
+                        <label for="radio-whatsapp">WhatsApp</label>
+                        <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+                    </div>
+
+                    <lebel><input type="checkbox">Gostaria de receber nossas novidades por email?</lebel>
+
+                    <input type="submit" value="Enviar formulário">
+                </form>
+            </main>
+
+            <footer>
+                <img src="logo-branco.png">
+                <p class="Copyright">&copy; Copyright Barbearia Alura - 2019</p>
+            </footer>
+        </body>
+    </html>
